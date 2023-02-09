@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'newton_howard';
+    src: url(../fonts/newton_howard/Newton\ Howard\ Font.otf);
+}
+h1{
+    font-family: 'newton_howard';
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+header {
+    width: 100%;
+    color:rgb(250, 250, 250);
+}
+main{
+    background-color:cadetblue;
+}
+main article{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.videos{
+    padding-bottom: 5rem;
+    justify-content: center;
+    display: inline-flex;
+    width: 100%;
+}
+
+.videos iframe{
+    margin-right: 2rem;
+}
+
+h1{
+    padding-top: 1.75rem;
+    margin-bottom: 1rem;
+    font-size: 34px;
+    text-decoration: underline;
+}
+
+h2{
+    text-align: left;
+    padding-bottom: 1rem;
+}
+h3{
+    text-align: left;
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+body{
+    text-align: center;
+    background-color:white;
+}
+
+img{
+    border-radius: 0.5em;
+    width: 35rem;
+    padding-bottom: 1.5rem;
+}
+
+.intro {
+    background: linear-gradient(0deg,rgb(51, 54, 223)  0%, rgb(75, 183, 197)  100%);
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+.inicio{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.director{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.persoaxes{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.persoaxes section {
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.menu{
+    background-color:rgb(142, 173, 175);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height:2.5rem;
+    position:relative;
+}
+
+.galeria {
+    display: flex;
+    float:none;
+    justify-content: space-evenly;
+    
+}
+.Evelyn{
+    background-color: aliceblue;
+    padding: 1rem;   
+}
+
+.Waymond{
+    background-color:blanchedalmond;
+    padding: 1rem;
+}
+.Joy{
+    background-color: aliceblue;
+    padding: 1rem;
+}
+.Gong_Gong{
+    background-color: blanchedalmond;
+    padding: 1rem;
+}
+.Mapachui{
+    background-color: aliceblue;
+    padding: 1rem;
+}
+
+
+.streaming{
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+    
+}
+table{
+    padding-top: 1.5rem;
+    margin: auto;
+}
+
+th{
+    background-color:rgb(145, 96, 96);
+}
+td{
+    background-color: antiquewhite;
+}
+
+td, th {
+    padding: 1rem;
+    border: 1px solid;
+}
+
+.media img{
+    width: 17rem;
+    border-radius:0.5em;
+}
+
+
+.menu li{
+    padding: 0.5rem;
+    display: inline-block;
+    border-style:double;
+    border-color: aliceblue;
+}
+
+.banda_sonora{
+    padding-bottom:1.5rem;
+    padding-top: 1.5rem;
+}
+
+img:hover{
+    transition: 0.65s;
+    width: 90%;
+}
+
+a:hover{
+    color:springgreen;
+    background-color: red;
+    opacity: 0.4;
+}
+
+a{
+    text-decoration: none;   
+}
+
+footer{
+    padding-top: 5rem;
+    background-color:rgb(139, 178, 211);
+    padding-bottom: 2.5rem;
+    text-align: left;
+    padding-left: 1.5rem; 
+}
+
+
+form{
+    text-align: left;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: rgba(250, 235, 215, 0.45);
+    border-radius: 1em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+
+
+}
+
+.enviar input{
+    width: 5rem;
+}
+.formulario {
+    padding-bottom:1rem;
+}
